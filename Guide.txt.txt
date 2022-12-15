@@ -1,0 +1,15 @@
+create a test folder in c drive and placed all files in c:\test
+then run following command
+c:\test> java sftpdemo3
+
+if you get java not recognized as .....
+then execute this verify java is there
+java -version
+
+
+if it return out then set the path as "insert your java folder path"
+
+set path=C:\Program Files\Java\jdk1.8.0_131\bin
+set classpath=C:\test\jsch-0.1.55.jar;c:\test
+
+
